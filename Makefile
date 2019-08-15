@@ -14,7 +14,7 @@ AKS_DASHBOARD = http://localhost:8001/api/v1/namespaces/kube-system/services/kub
 # Azure specific options
 export LOCATION ?= West US
 export AZURE_VM ?= Standard_DS2_v2
-export AKS_VERSION ?= 1.13.7
+export AKS_VERSION ?= 1.14.5
 export AKS_CNI ?= true
 
 # EKS specific options
